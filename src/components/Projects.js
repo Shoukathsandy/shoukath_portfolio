@@ -80,7 +80,8 @@ function Projects() {
        
         {detail.map((datas) => (
           <>
-            <Card sx={{ maxWidth: 345 }} className="col-2 m-5 p-3 back" onClick={handleShow}>
+          <div className="justify-item-center">
+            <Card sx={{ maxWidth: 345 }} className="col-lg-2 col-md-6 col-sm-12 m-5 p-3  back" onClick={handleShow}>
               <CardMedia
                 className="img-fluid"
                 component="img"
@@ -111,6 +112,7 @@ function Projects() {
               </CardActions>
            
             </Card>
+            </div>
             {/* <Modal show={show} onHide={handleClose} animation={false}>
               <Modal.Header closeButton>
                 <Modal.Title className="text-primary">{datas.title}</Modal.Title>

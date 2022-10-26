@@ -37,55 +37,32 @@ function App() {
                 navigate("/")
               }} >Shoukath Ali</Button>
               <div className="log" >
-
                 <Button color="inherit" className="bcg" onClick={() => {
                   navigate("/about");
                 }}>
                   <SettingsAccessibilityIcon />About
                 </Button>
-
                 <Button color="inherit" className="bcg" onClick={() => {
                   navigate("/skill");
                 }}>
                   <DetailsIcon />Skill
                 </Button>
-
-                {/* <Button color="inherit" className="bcg" onClick={() => {
-                // navigate("/login");
-              }}>
-                <ArticleIcon />Resume
-              </Button> */}
-
-
                 <Button color="inherit" className="bcg" onClick={() => {
                   navigate("/projects");
                 }}>
                   <AssignmentTurnedInIcon />project
                 </Button>
-
                 <Button color="inherit" className="bcg" onClick={() => {
                   navigate("/contact");
                 }}>
                   <PermContactCalendarIcon />contact
                 </Button>
-                {/* <Button color="inherit" className="bcg" onClick={() => {
-                  // navigate("/login");
-                }}>
-                  <AccountTreeIcon />Projects
-                </Button> */}
-
-
               </div>
             </Toolbar>
           </Container>
         </AppBar>
       </nav>
-
     </div>
-   {/* <About />
-   <Skill />
-   <Projects />
-   <Contact /> */}
     <Routes>
       <Route path="/"  element={<Homepage />} />
       <Route path="/about" element={<About />} />

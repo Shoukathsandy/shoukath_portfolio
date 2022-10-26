@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="topic">CONTACT</div>
       <div className='container'>
         <div className='row skill-btn'>
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
                 <button className='fluid one'>
                <p className='clr'>shoukathsandy@gmail.com</p>
                 </button>
