@@ -14,8 +14,9 @@ import Container from '@mui/material/Container';
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects"
-import Homepage from "./components/Homepage"
-import Footer from "./components/Footer"
+// import Homepage from "./components/Homepage"
+import Homes from "./components/Home"
+// import Footer from "./components/Footer"
 // import { detail } from './components/data';
 import { Routes, Route } from "react-router-dom"
 import { useNavigate } from "react-router-dom";
@@ -35,7 +36,7 @@ function App() {
             <Toolbar disableGutters>
               <Button color="inherit" className="bcg" onClick={()=>{
                 navigate("/")
-              }} >Shoukath Ali</Button>
+              }} >Home</Button>
               <div className="log" >
                 <Button color="inherit" className="bcg" onClick={() => {
                   navigate("/about");
@@ -64,7 +65,7 @@ function App() {
       </nav>
     </div>
     <Routes>
-      <Route path="/"  element={<Homepage />} />
+      <Route path="/"  element={<Homes />} />
       <Route path="/about" element={<About />} />
       <Route path="/skill" element={<Skill />} />
       <Route path="/projects" element={<Projects />} />

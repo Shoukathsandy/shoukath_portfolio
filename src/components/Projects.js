@@ -76,12 +76,15 @@ function Projects() {
         <div><h3>Login Credential</h3></div>
         <div><h5>UserName/Email: test@gmail.com/test</h5></div>
         <div><h5>Password: Test@123</h5></div>
+        <div><h3>Admin Credential</h3></div>
+        <div><h5>UserName/Email: admin@admin.com/admin</h5></div>
+        <div><h5>Password: 123456</h5></div>
         </div>
        
         {detail.map((datas) => (
           <>
-          <div className="justify-item-center">
-            <Card sx={{ maxWidth: 345 }} className="col-lg-2 col-md-6 col-sm-12 m-5 p-3  back" onClick={handleShow}>
+        
+            <Card sx={{ maxWidth: 345 }} className="col-lg-3 col-md-6 col-sm-12 m-5 p-3  back" onClick={handleShow}>
               <CardMedia
                 className="img-fluid"
                 component="img"
@@ -112,7 +115,7 @@ function Projects() {
               </CardActions>
            
             </Card>
-            </div>
+           
             {/* <Modal show={show} onHide={handleClose} animation={false}>
               <Modal.Header closeButton>
                 <Modal.Title className="text-primary">{datas.title}</Modal.Title>
