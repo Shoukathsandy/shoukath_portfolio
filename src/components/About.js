@@ -27,7 +27,7 @@ export default function About() {
           technologies ability to learn and
           develope using new technologies quickly
           with interpersonal skills.</b></q></i>
-            <div className="fluid"> <a class="fluid btn-slide" href = "https://drive.google.com/file/d/1ZIEprl7KfsCXPlzIXnGjHGq2K--Fxoen/view?usp=sharing" target = "_blank">
+            <div className="fluid"> <a class="fluid btn-slide" href = "https://drive.google.com/file/d/1J3YaXY8wJJMgh4j1VYYkQYzxmN0I7mNi/view?usp=sharing" target = "_blank">
       <span class="circle">
       <i class="fluid fa fa-save"></i>     
       </span>
