@@ -11,8 +11,8 @@ export default function Homes() {
       <h1 className="animate-charcter">{`Hi! I'm Shoukath Ali `} </h1><br></br>
         <h4 className="animate-charcter">I'm an MERN stack developer.</h4>
         <div className="hm">
-        <Button href="http://surl.li/cugan" target="_blank" variant="outlined" color="primary">LinkedIn</Button>
-        <Button href="https://github.com/Shoukathsandy" target="_blank" variant="outlined" color="primary">GitHub</Button>
+        <Button href="http://surl.li/cugan" target="_blank" variant="contained" color="primary">LinkedIn</Button>
+        <Button href="https://github.com/Shoukathsandy" target="_blank" variant="contained" color="primary">GitHub</Button>
         </div>
         </div>
         <div className="col-12 col-lg-6 fluid-flex">

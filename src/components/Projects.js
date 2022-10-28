@@ -102,7 +102,7 @@ function Projects() {
                   <b>Node.Js</b>
                   <b>Express.Js</b>
                   <b>MongoDb</b> */}
-                  <h5 className="">{datas.tech}</h5>
+                  <h5 className="">{datas.tech} React Node MongoDb Express</h5>
                 </Typography>
                 {/* <Typography variant="body2" color="text.secondary">
                   {datas.description}
