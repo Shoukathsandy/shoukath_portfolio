@@ -46,7 +46,7 @@ const detail = [
     description: "this is Tour blog app",
     tech: "Json Web Token",
     gitclient: "https://github.com/Shoukathsandy/tour_app_client",
-    gitserver: "https://github.com/Shoukathsandy/tour_app_server",
+    gitserver: "https://tour-pedia-app.herokuapp.com",
     livedemo: "https://bespoke-sprinkles-edeca6.netlify.app",
 
   },
